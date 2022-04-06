@@ -1,0 +1,44 @@
+main.html
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test Hint</title>
+    <script src='leture.js'></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <style>
+      .first
+      {
+        float:left; width:280px; height:600px; border:1px solid red; margin:20px 20px 20px 20px;text-align: center;
+      }
+      .second
+      {
+        float:left; width:280px; height:600px; border:1px solid green; margin:20px 20px 20px 20px; text-align: center;
+      }
+      .third
+      {
+        float:left; width:280px; height:600px; border:1px solid purple; margin:20px 20px 20px 20px;text-align: center;
+      }
+  </style>
+
+  <body>
+
+    <p> 하노이의 탑 </p>
+    <form id="form_box" method="get" action="form-action.html">
+      <!--<label><input id="radio_toRight" type="radio" name="hanoi">→</label>
+      <label><input id="radio_toLeft" type="radio" name="hanoi">←</label>-->
+  
+        <!--<input id="button_submit" type="button" value="Move" onclick="Move();">-->
+        <input id="button_reset" type="button" value="초기화" onclick="Init();">
+     
+    </form>
+    <div class="parent">
+      <div class="first"></div>
+      <div class="second" >second</div>
+      <div class="third"></div>
+      
+    </div>  
+    
+  </body>
+</html>
